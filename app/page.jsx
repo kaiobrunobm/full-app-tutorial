@@ -1,6 +1,8 @@
 import Analytics from "./Components/Analytics/Analytics";
+import Cards from "./Components/Cards/Cards";
 import Header from "./Components/Header/Header";
 import Hero from "./Components/Hero/Hero";
+import Newsletter from "./Components/Newsletter/Newsletter";
 
 export default function Home() {
   return (
@@ -8,6 +10,8 @@ export default function Home() {
       <Header />
       <Hero />
       <Analytics />
+      <Newsletter />
+      <Cards />
     </div>
   );
 }

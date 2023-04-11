@@ -1,9 +1,10 @@
 import React from "react";
+import Button from "../Utils/Button";
 
 const Hero = () => {
   return (
     <div className="text-white">
-      <div className="max-w-[800px] mt-[-96px] w-full h-screen mx-auto text-center flex flex-col justify-center">
+      <div className="max-w-[800px] mt-[-96px] w-full h-[114vh] mx-auto text-center flex flex-col justify-center">
         <p className="uppercase text-primary font-bold p-2">
           Growing whith data analytics
         </p>
@@ -19,9 +20,7 @@ const Hero = () => {
           Monitor your data analytics to increase revenue for BTB, BTC, & SASS
           platforms.
         </p>
-        <button className="bg-primary w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-blackPrimary">
-          Get Started
-        </button>
+        <Button>Get Started</Button>
       </div>
     </div>
   );
